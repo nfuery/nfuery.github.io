@@ -4,29 +4,15 @@ body {
     font-family: 'Libre Franklin', Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-html, body {
-    height: 100%; /* Ensure the full height of the window is used */
-    margin: 0; /* Remove default margin */
-    display: flex; /* Enables flexbox */
+    display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    font-family: 'Libre Franklin', Arial, sans-serif;
+    height: 100vh; /* Full viewport height */
 }
 
 h1 {
     color: white;
-}
-
-header {
-    text-align: center; /* Center the title */
-}
-
-header h1 {
-    color: white; /* Dark green color for the title */
-    /* Apply the animation */
-    animation: Entrance 2s ease 0s 1 normal forwards;
+    animation: Entrance 2s ease 0s 1 normal forwards; /* Apply the animation directly to h1 */
 }
 
 /* Keyframes for the entrance animation */
