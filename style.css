@@ -6,9 +6,17 @@ body {
     padding: 0;
 }
 
-header, section, footer {
-    padding: 20px;
-    border-bottom: 2px solid darkgreen;
+html, body {
+    height: 100%; /* Ensure the full height of the window is used */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: 'Libre Franklin', Arial, sans-serif;
+}
+
+h1 {
+    color: white;
 }
 
 header {
@@ -19,36 +27,6 @@ header h1 {
     color: white; /* Dark green color for the title */
     /* Apply the animation */
     animation: Entrance 2s ease 0s 1 normal forwards;
-}
-
-a {
-    color: #90ee90; /* Light green for links */
-}
-
-a:hover {
-    color: #ffffff;
-}
-
-#portfolio {
-    background-color: #333333; /* Slightly lighter background for sections */
-    padding: 20px;
-}
-
-#resume a {
-    background-color: darkgreen;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #222222; /* Dark footer background */
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 /* Keyframes for the entrance animation */
